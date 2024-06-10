@@ -43,8 +43,8 @@ interests:
 education:
   - area: PhD Computer Science and Technology
     institution: Tsinghua University
-    date_start: 2016-09-01
-    date_end: 2020-06-30
+    date_start: 2019-09-01
+    date_end: 2024-06-30
     summary: |
       Thesis on _Generations and Applications of Correlation Data in Quantum Information_. Supervised by Prof Zhaohui Wei.
     # button:
