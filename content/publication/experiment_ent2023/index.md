@@ -1,17 +1,27 @@
 ---
 title: "Quantum and classical hybrid generations for classical correlations"
 authors:
+- Yu Guo
+- Lijinzhi Lin
+- Huan Cao
+- Chao Zhang
 - Xiaodie Lin
+- Xiao-Min Hu
+- Bi-Heng Liu
+- Yun-Feng Huang
 - Zhaohui Wei
-- Penghui Yao
+- Yong-Jian Han
+- Chuan-Feng Li
+- Guang-Can Guo
+
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2021-10-27T00:00:00Z"
-doi: "10.1109/TIT.2021.3123401"
+date: "2023-06-04T00:00:00Z"
+doi: "10.1007/s11432-022-3681-2"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-10-27T00:00:00Z"
+publishDate: "2023-06-04"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -19,19 +29,20 @@ publishDate: "2021-10-27T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE Transactions on Information Theory*
-publication_short: In *IEEE TIT*
+publication: In *Science China Information Sciences*
+publication_short: In *Science China Information Sciences*
 
-abstract: We consider two-stage hybrid protocols that combine quantum resources and classical resources to generate classical correlations shared by two separated players. Our motivation is twofold. First, in the near future, the scale of quantum information processing is quite limited, and when quantum resource available is not sufficient for certain tasks, a possible way to strengthen the capability of quantum schemes is introducing extra classical resources. We analyze the mathematical structures of these hybrid protocols, and characterize the relation between the amount of quantum resources and classical resources needed. Second, a fundamental open problem in communication complexity theory is to describe the advantage of sharing prior quantum entanglement over sharing prior randomness, which is still widely open. It turns out that our quantum and classical hybrid protocols provide new insight into this important problem.
+abstract: Using the concept of non-degenerate Bell inequality, we show that quantum entanglement, the critical resource for various quantum information processing tasks, can be quantified for any unknown quantum state in a semi-device-independent manner, where the quantification is based on the experimentally obtained probability distributions and prior knowledge of the quantum dimension only. Specifically, as an application of our approach to multi-level systems, we experimentally quantify the entanglement of formation and the entanglement of distillation for qutrit-qutrit quantum systems. In addition, to demonstrate our approach for multi-partite systems, we further quantify the geometric measure of entanglement of three-qubit quantum systems. Our results supply a general way to reliably quantify entanglement in multi-level and multi-partite systems, thus paving the way to characterize many-body quantum systems by quantifying the involved entanglement.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Near-term quantum computing
-- Hybrid protocols
-- Correlation generation
-- Quantum advantage
+- Entanglement quantification
+- Semi-device-independent
+- Bell nonlocality
+- Multi-partite system
+- Multi-level system
 featured: true
 
 # links:
