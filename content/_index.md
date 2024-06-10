@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I'm a quantum information PhD student at Tsinghua University. I blog about quantum information theory, quantum machine learning, and quantum error mitigation.
-
-        I apply a range of optimization and machine learning methods to comprehensively investigate the quantum mechanism and quantum computing complexity.
+        My research area lies in quantum information and quantum machine learning, the interdisciplinary fields at the nexus of physics, mathematics, and computer science. My research primarily revolves around two pivotal questions: Firstly, in which information processing tasks do quantum technologies offer superior performance over traditional methods? Secondly, how can we effectively explore physical properties of quantum systems via machine learning, given the NP-hardness of many quantum problems? 
+        
+        In the noisy immediate-scale quantum (NISQ) era, quantum devices usually contain a limited scale of qubits and are not sophisticated enough to implement quantum error correction, hence the realization of universal quantum computers confronts substantial hurdles. Consequently, addressing practical quantum applications demands additional considerations of resource constraints, such as the qubit count or the extent of physical operations permissible. In my research, I am dedicated to contributing to the comprehension of the above two pivotal questions under current quantum technologies.
         
         Please reach out to collaborate 😃
     design:
