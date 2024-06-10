@@ -7,7 +7,7 @@ title: 'The generations of classical correlations via quantum schemes'
 authors:
   - Zhenyu Chen
   - Lijinzhi Lin
-  - **Xiaodie Lin**
+  - Xiaodie Lin
   - Zhaohui Wei
   - Penghui Yao
 
