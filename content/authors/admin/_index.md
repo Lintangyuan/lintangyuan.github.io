@@ -46,7 +46,7 @@ education:
     date_start: 2016-09-01
     date_end: 2020-06-30
     summary: |
-      Thesis on _Generations and Applications of Correlation Data in Quantum Information_. Supervised by [Prof Zhaohui Wei](https://ymsc.tsinghua.edu.cn/en/info/1033/1955.htm).
+      Thesis on _Generations and Applications of Correlation Data in Quantum Information_. Supervised by Prof Zhaohui Wei.
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
@@ -56,9 +56,7 @@ education:
     date_end: 2019-06-30
     summary: |
       GPA: 4.33/5.0
-      
-      Advised by [Prof Lvzhou Li](https://scholar.google.com.au/citations?user=a07s0UwAAAAJ)
-# work:
+work:
 #   - position: Director of Cloud Infrastructure
 #     company_name: GenCoin
 #     company_url: ''
