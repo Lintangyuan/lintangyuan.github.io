@@ -8,8 +8,8 @@ first_name: Xiaodie
 last_name: Lin
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
