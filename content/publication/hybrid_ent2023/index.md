@@ -5,21 +5,19 @@ title: 'The generations of classical correlations via quantum schemes'
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Zhenyu Chen
-  - Lijinzhi Lin
   - Xiaodie Lin
+  - Zhenyu Chen
   - Zhaohui Wei
-  - Penghui Yao
 
 # Author notes (optional)
-author_notes:
-  - 'Alphabetical ordering'
+# author_notes:
+#   - 'Alphabetical ordering'
 
-date: '2024-04-19T00:00:00Z'
-doi: '10.1109/TIT.2024.3391341'
+date: '2023-06-09T00:00:00Z'
+doi: '10.1103/PhysRevA.107.062409'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-04-19T00:00:00Z'
+publishDate: '2023-06-09T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -28,20 +26,17 @@ publishDate: '2024-04-19T00:00:00Z'
 publication_types: ['paper-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE Transactions on Information Theory*
-publication_short: In *IEEE TIT*
+publication: In *Physical Review A*
+publication_short: In *Phys. Rev. A*
 
-abstract: Suppose two separated parties, Alice and Bob, share a bipartite quantum state or a classical correlation called a
-seed, and they try to generate a target classical correlation by performing local quantum or classical operations on the seed, i.e., any communications are not allowed. We consider the following fundamental problem about this setting: whether Alice and Bob can use a given seed to generate a target classical correlation. We show that this problem has rich mathematical structures. Firstly, we prove that even if the seed is a pure bipartite state, the above decision problem is already NP-hard and a similar conclusion can also be drawn when the seed is also a classical correlation, implying that this problem is hard to solve generally. Furthermore, we prove that when the seed is a pure quantum state, solving the problem is equivalent to finding out whether the target classical correlation has some diagonal form of positive semi-definite factorizations that matches the seed pure state, revealing an interesting connection between the current problem and optimization theory. Based on this observation and other insights, we give several necessary conditions where the seed pure state has to satisfy to generate the target classical correlation, and it turns out that these conditions can also be generalized to the case that the seed is a mixed quantum state. Lastly, since diagonal forms of positive semi-definite factorizations play a crucial role in solving the problem, we develop an algorithm that can compute them for an arbitrary classical correlation, which has decent performance on the cases we test.
+abstract: Quantifying entanglement for quantum states whose density matrices are unknown is a difficult task, but also becomes more and more necessary because of the fast development of quantum engineering. Machine learning provides practical solutions to this fundamental problem, where one has to train a proper machine learning model to predict entanglement measures of unknown quantum states based on experimentally measurable data, say, moments of density matrices or correlation data produced by local measurements. In this paper, we compare the performance of these two different machine learning approaches systematically. Particularly, we first show that the approach based on moments enjoys a remarkable advantage over that based on correlation data, though the cost of measuring moments is much higher. Next, since correlation data is much easier to obtain experimentally, we try to better its performance by proposing a hybrid quantum-classical machine learning framework for this problem, where the key is to train optimal local measurements, or even optimal tensor products of single-qubit observables, to generate more informative correlation data. Our numerical simulations show that the new hybrid framework brings us comparable performance with the approach based on moments to quantify entanglement, and furthermore, it turns out that the new hybrid framework has a nice noise-resistant capability when handling realistic correlation data.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Correlation generation
-  - Local state transformation
-  - PSD-rank
-  - Diagonal form of PSD factorization
+  - Entanglement quantification
+  - Hybrid quantum-classical
 
 # Display this page in the Featured widget?
 featured: true

@@ -1,5 +1,5 @@
 ---
-title: "Quantum and Classical Hybrid Generations for Classical Correlations"
+title: "Quantum and classical hybrid generations for classical correlations"
 authors:
 - Xiaodie Lin
 - Zhaohui Wei
@@ -32,7 +32,7 @@ tags:
 - Hybrid protocols
 - Correlation generation
 - Quantum advantage
-featured: false
+featured: true
 
 # links:
 # - name: ""
